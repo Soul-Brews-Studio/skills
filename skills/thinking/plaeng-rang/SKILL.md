@@ -1,6 +1,6 @@
 ---
-name: แปลงร่าง
-description: แปลงร่าง (plaeng-rang) — transform your REASONING METHOD into a named master's, then solve the problem with it. Elon Musk is the flagship (the Algorithm, first principles, idiot index). Use when user says "แปลงร่าง", "plaeng-rang", "transform", "think like Elon / Musk / <master>", "solve this like <name> would", "bring <name>'s DNA", "first principles this", "apply the algorithm". Bilingual EN/ไทย. Do NOT trigger for a critique of an existing artifact (use /oracle-facet), a panel debate (use /debate), or N lenses in one pass (use /oracle-prism).
+name: plaeng-rang
+description: แปลงร่าง / plaeng-rang — transform your REASONING METHOD into a named master's, then solve the problem with it. Elon Musk is the flagship (the Algorithm, first principles, idiot index). Use when user says "แปลงร่าง", "plaeng-rang", "transform", "think like Elon / Musk / <master>", "solve this like <name> would", "bring <name>'s DNA", "first principles this", "apply the algorithm". Bilingual EN/ไทย. Do NOT trigger for a critique of an existing artifact (use /oracle-facet), a panel debate (use /debate), or N lenses in one pass (use /oracle-prism).
 argument-hint: "<master> <problem> [--th] [--algorithm] [--audit]"
 ---
 

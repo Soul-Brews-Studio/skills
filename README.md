@@ -63,8 +63,10 @@ Bilingual EN/ไทย.
 npx skills@latest add Soul-Brews-Studio/skills --skill=plaeng-rang
 ```
 
-> **Note**: install as `plaeng-rang` (the directory is ASCII so it's typeable),
-> invoke as `/แปลงร่าง` (the skill's own name).
+> **Note**: the skill's `name` is `plaeng-rang` (ASCII) so every agent can create
+> its directory — a Thai `name` installs as `unnamed-skill` on some agents.
+> Typing **แปลงร่าง** still triggers it: the word is the first thing in its
+> description.
 
 ## Install
 
