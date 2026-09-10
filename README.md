@@ -26,7 +26,7 @@ inventory. `--dna` makes each lens declare the real practitioners whose method i
 runs.
 
 ```bash
-npx skills@latest add Soul-Brews-Studio/skills --skill=oracle-prism
+npx skills@latest add Soul-Brews-Studio/skills --skill oracle-prism
 ```
 
 ### `/oracle-facet` — one master, deep
@@ -37,7 +37,7 @@ cut · what they'd keep · the one change. Then the part that separates a lens
 from a fan letter — **where this lens is blind**.
 
 ```bash
-npx skills@latest add Soul-Brews-Studio/skills --skill=oracle-facet
+npx skills@latest add Soul-Brews-Studio/skills --skill oracle-facet
 ```
 
 ### `/roundtable` — the prism, seated
@@ -50,7 +50,7 @@ Supervisor who names the axes and rules after the tally; `--specialist` seats an
 invited expert. Escalates to you rather than crowning a plurality.
 
 ```bash
-npx skills@latest add Soul-Brews-Studio/skills --skill=roundtable
+npx skills@latest add Soul-Brews-Studio/skills --skill roundtable
 ```
 
 ### `/แปลงร่าง` — transform the method
@@ -60,7 +60,7 @@ way Musk solves things": the Algorithm, first principles, the idiot index.
 Bilingual EN/ไทย.
 
 ```bash
-npx skills@latest add Soul-Brews-Studio/skills --skill=plaeng-rang
+npx skills@latest add Soul-Brews-Studio/skills --skill plaeng-rang
 ```
 
 > **Note**: the skill's `name` is `plaeng-rang` (ASCII) so every agent can create
@@ -75,14 +75,19 @@ npx skills@latest add Soul-Brews-Studio/skills --skill=plaeng-rang
 npx skills@latest add Soul-Brews-Studio/skills
 
 # one skill
-npx skills@latest add Soul-Brews-Studio/skills --skill=oracle-prism
+npx skills@latest add Soul-Brews-Studio/skills --skill oracle-prism
 
 # see what's in here without installing
 npx skills@latest add Soul-Brews-Studio/skills --list
 
 # globally, for Claude Code, no prompts
-npx skills@latest add Soul-Brews-Studio/skills --skill=roundtable -g -a claude-code -y
+npx skills@latest add Soul-Brews-Studio/skills --skill roundtable -g -a claude-code -y
 ```
+
+> **Watch the space.** `--skill oracle-prism` installs one skill.
+> `--skill=oracle-prism` — with an equals sign — silently installs **all**
+> of them. Verified against `skills@1.5.25`; this applies to any repo you
+> install with this CLI, not just ours.
 
 As a Claude Code plugin:
 
