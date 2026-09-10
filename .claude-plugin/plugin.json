@@ -21,7 +21,7 @@
   "skills": [
     "./skills/oracle/oracle-prism",
     "./skills/oracle/oracle-facet",
-    "./skills/oracle/roundtable",
+    "./skills/oracle/oracle-roundtable",
     "./skills/thinking/plaeng-rang"
   ]
 }

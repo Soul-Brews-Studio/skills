@@ -14,7 +14,7 @@ npx skills@latest add Soul-Brews-Studio/skills
 |---|---|---|
 | **`/oracle-prism`** | N lenses, one pass, no dialogue | you want angles fast — "what am I missing?" |
 | **`/oracle-facet`** | one named master, deep, on one artifact | you want one person's taste applied |
-| **`/roundtable`** | those lenses seated, 4 rounds, a vote | you want a **decision** and the disagreement that produced it |
+| **`/oracle-roundtable`** | those lenses seated, 4 rounds, a vote | you want a **decision** and the disagreement that produced it |
 | **`/แปลงร่าง`** | adopt a master's reasoning *method* | you want to solve it their way, not be critiqued by them |
 
 ### `/oracle-prism` — N lenses, one pass
@@ -40,7 +40,7 @@ from a fan letter — **where this lens is blind**.
 npx skills@latest add Soul-Brews-Studio/skills --skill oracle-facet
 ```
 
-### `/roundtable` — the prism, seated
+### `/oracle-roundtable` — the prism, seated
 
 Prism gives you angles; roundtable gives you a decision. Seat 3–20 lenses at one
 table and make them answer each other, turn by turn, across four rounds —
@@ -50,7 +50,7 @@ Supervisor who names the axes and rules after the tally; `--specialist` seats an
 invited expert. Escalates to you rather than crowning a plurality.
 
 ```bash
-npx skills@latest add Soul-Brews-Studio/skills --skill roundtable
+npx skills@latest add Soul-Brews-Studio/skills --skill oracle-roundtable
 ```
 
 ### `/แปลงร่าง` — transform the method
@@ -81,7 +81,7 @@ npx skills@latest add Soul-Brews-Studio/skills --skill oracle-prism
 npx skills@latest add Soul-Brews-Studio/skills --list
 
 # globally, for Claude Code, no prompts
-npx skills@latest add Soul-Brews-Studio/skills --skill roundtable -g -a claude-code -y
+npx skills@latest add Soul-Brews-Studio/skills --skill oracle-roundtable -g -a claude-code -y
 ```
 
 > **Watch the space.** `--skill oracle-prism` installs one skill.
@@ -116,7 +116,7 @@ skills/
 ├── oracle/
 │   ├── oracle-prism/SKILL.md
 │   ├── oracle-facet/SKILL.md
-│   └── roundtable/SKILL.md
+│   └── oracle-roundtable/SKILL.md
 └── thinking/
     └── plaeng-rang/SKILL.md
 ```
@@ -130,7 +130,7 @@ Soul Brews Studio builds **Oracles** — repos that carry their own identity,
 memory and working practice across sessions. These four are the analysis
 instruments from that toolkit, extracted to stand alone.
 
-`/roundtable` has a longer story than the others: it existed as an unimplemented
+`/oracle-roundtable` has a longer story than the others: it existed as an unimplemented
 design spec from 2026-05-16, inspired by a 7-agent, 4-round confidence-vote
 deliberation pattern, and sat unbuilt until 2026-09-08.
 

@@ -1,14 +1,14 @@
 ---
-name: roundtable
+name: oracle-roundtable
 description: Multi-persona deliberation — seat N of oracle-prism's 20 lenses at one table and let them discuss a stakes-bearing question turn by turn across 4 rounds (OPEN → DEEPEN → CONVERGE → VOTE), then vote with confidence. One agent, no subagents. Use when user says "roundtable", "round table", "round-table", "convene the council", "deliberate this", "seat N lenses", "seat all twenty", or asks to "add a supervisor" / "bring in a specialist", or wants a decision debated rather than analysed. Do NOT trigger for angles without a decision (use /oracle-prism), one master deep (use /oracle-facet), or disproving a claim (use /adversarial-analysis).
 argument-hint: "[--seats N] [--preset default|retro|design|incident] [--who \"A,B,C\"] [--all] [--super ROLE] [--specialist ROLE] [--dna] [--options \"a,b,c\"] [--aggregator weighted|majority|unanimity-or-escalate] question"
 ---
-# /roundtable — the prism, seated
+# /oracle-roundtable — the prism, seated
 
-> alias: `/round-table`
+> alias: `/roundtable` · `/round-table`
 
 > `/oracle-prism` refracts one question through N lenses, each in its own
-> section, none answering the others. `/roundtable` seats those same lenses
+> section, none answering the others. `/oracle-roundtable` seats those same lenses
 > at one table and makes them **answer each other** — turn by turn, four
 > rounds, then a vote. Prism gives you angles. Roundtable gives you a decision.
 
@@ -21,15 +21,15 @@ lenses, and the whole thing runs in one agent, inline, like prism.
 ## Usage
 
 ```
-/roundtable "Should we ship 02 as the course page?"
-/roundtable --preset design "Merge the eight landing pages into one?"
-/roundtable --who "Skeptic,Maintainer,Planner" "Adopt the Algorithm for every page?"
-/roundtable --seats 7 --preset incident "Why did the deploy die at 18 of 28?"
-/roundtable --all "Delete /roundtable's two dangling references, or build it?"
-/roundtable --super "Editor" --preset design "Which of the eight landing pages ships?"
-/roundtable --specialist "Tax Specialist" --preset default "Accept the 100M contract?"
-/roundtable --dna --preset design "Which of the eight landing pages ships?"
-/roundtable --options "build,delete,defer" --aggregator unanimity-or-escalate "…"
+/oracle-roundtable "Should we ship 02 as the course page?"
+/oracle-roundtable --preset design "Merge the eight landing pages into one?"
+/oracle-roundtable --who "Skeptic,Maintainer,Planner" "Adopt the Algorithm for every page?"
+/oracle-roundtable --seats 7 --preset incident "Why did the deploy die at 18 of 28?"
+/oracle-roundtable --all "Delete /oracle-roundtable's two dangling references, or build it?"
+/oracle-roundtable --super "Editor" --preset design "Which of the eight landing pages ships?"
+/oracle-roundtable --specialist "Tax Specialist" --preset default "Accept the 100M contract?"
+/oracle-roundtable --dna --preset design "Which of the eight landing pages ships?"
+/oracle-roundtable --options "build,delete,defer" --aggregator unanimity-or-escalate "…"
 ```
 
 ## Who can sit — the 20
@@ -215,7 +215,7 @@ Axes: (1) … (2) …
 |---|---|---|---|
 | `/oracle-prism` | N lenses, one pass, no dialogue | 0 | you want angles, fast |
 | `/oracle-facet` | one master, deep | 0 | you want one taste applied |
-| `/roundtable` | N lenses, four rounds, a vote | 0 | you want a **decision** and the disagreement that produced it |
+| `/oracle-roundtable` | N lenses, four rounds, a vote | 0 | you want a **decision** and the disagreement that produced it |
 | `/adversarial-analysis` | 5 attacking one claim | 5 | being wrong is expensive |
 
 ## Open questions (carried from the spec)
