@@ -1,0 +1,17 @@
+{
+  "name": "soul-brews-studio",
+  "owner": {
+    "name": "Soul Brews Studio",
+    "url": "https://github.com/Soul-Brews-Studio"
+  },
+  "description": "Oracle skills from Soul Brews Studio, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "soul-brews-skills",
+      "source": "./",
+      "description": "Multi-perspective analysis (prism), one-master critique (facet), multi-persona deliberation (roundtable), and reasoning-method transformation (แปลงร่าง). Inline, no subagents, bilingual EN/ไทย.",
+      "category": "analysis",
+      "keywords": ["analysis", "multi-perspective", "deliberation", "critique", "oracle"]
+    }
+  ]
+}

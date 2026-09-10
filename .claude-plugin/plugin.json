@@ -1,0 +1,27 @@
+{
+  "name": "soul-brews-skills",
+  "version": "0.1.0",
+  "description": "Oracle skills from Soul Brews Studio: multi-perspective analysis, single-master critique, multi-persona deliberation, and reasoning-method transformation. One agent, no subagents.",
+  "author": {
+    "name": "Soul Brews Studio",
+    "url": "https://github.com/Soul-Brews-Studio"
+  },
+  "repository": "https://github.com/Soul-Brews-Studio/skills",
+  "license": "MIT",
+  "keywords": [
+    "analysis",
+    "multi-perspective",
+    "deliberation",
+    "critique",
+    "decision-making",
+    "oracle",
+    "thai",
+    "bilingual"
+  ],
+  "skills": [
+    "./skills/oracle/oracle-prism",
+    "./skills/oracle/oracle-facet",
+    "./skills/oracle/roundtable",
+    "./skills/thinking/plaeng-rang"
+  ]
+}
